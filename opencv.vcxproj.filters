@@ -15,8 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="opencv_6.cpp">
+    <ClCompile Include="opencv_face.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resources\haarcascade_frontalface_default.xml" />
   </ItemGroup>
 </Project>
